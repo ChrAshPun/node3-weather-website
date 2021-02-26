@@ -1,3 +1,3 @@
-Weather website is hosted on Heroku
+A weather website built with Node.js and Heroku
 
-https://chrashpun-node3-weather-app.herokuapp.com
+Go to site: https://chrashpun-node3-weather-app.herokuapp.com
