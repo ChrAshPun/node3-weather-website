@@ -11,19 +11,4 @@ const forecast = (url, callback) => {
     });
 }
 
-
-
-
-// (error, response) => {
-//     const url = response.url(); // weatherstack API endpoint with lat & long coordinates
-  
-//     // request current forecast based on lat & long coordinates
-//     request({ url: url, json: true }, (error, response) => {
-//       return response.body
-//     });
-//   };
-
-  
-
-
 module.exports = forecast;
