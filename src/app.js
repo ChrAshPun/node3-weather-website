@@ -60,6 +60,7 @@ app.get("/weather", (req, res) => {
         forecast: forecastData.forecast,
         location: forecastData.location,
         address: req.query.address,
+        humidity: forecastData.humidity
       });
     });
   });
